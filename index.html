@@ -7,197 +7,173 @@
     <link rel="stylesheet" href="assest/css/style.css">
     <link rel="stylesheet" href="assest/css/reset.css">
     <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Metadatos básicos -->
+    <meta name="description" content="Expertos en instalación, mantenimiento y reparación de ascensores residenciales y comerciales. Soluciones de elevación seguras y eficientes para edificios de todas las alturas.">
+    <meta name="keywords" content="ascensores, elevadores, instalación de ascensores, mantenimiento de ascensores, reparación de ascensores, ascensores residenciales, ascensores comerciales, modernización de ascensores">
+    <meta name="author" content="Nombre de tu Empresa">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tuempresa.com/">
+    <meta property="og:title" content="Ascensores de Alta Calidad | Instalación y Mantenimiento">
+    <meta property="og:description" content="Expertos en soluciones de elevación seguras y eficientes. Instalación, mantenimiento y reparación de ascensores para todo tipo de edificios.">
+    <meta property="og:image" content="https://www.tuempresa.com/imagen-ascensor.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.tuempresa.com/">
+    <meta property="twitter:title" content="Ascensores de Alta Calidad | Instalación y Mantenimiento">
+    <meta property="twitter:description" content="Expertos en soluciones de elevación seguras y eficientes. Instalación, mantenimiento y reparación de ascensores para todo tipo de edificios.">
+    <meta property="twitter:image" content="https://www.tuempresa.com/imagen-ascensor.jpg">
+    <!-- Metadatos adicionales -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="canonical" href="https://www.tuempresa.com/ascensores">
+    <!-- Datos estructurados para Google -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Nombre de tu Empresa de Ascensores",
+    "image": "https://www.tuempresa.com/logo.jpg",
+    "@id": "https://www.tuempresa.com/",
+    "url": "https://www.tuempresa.com/",
+    "telephone": "+34912345678",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Calle Principal 123",
+        "addressLocality": "Madrid",
+        "postalCode": "28001",
+        "addressCountry": "ES"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.4168,
+        "longitude": -3.7038
+    },
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+    },
+    "sameAs": [
+        "https://www.facebook.com/tuempresa",
+        "https://www.twitter.com/tuempresa",
+        "https://www.linkedin.com/company/tuempresa"
+    ]
+    }
+    </script>
 </head>
 <body>
     <header>
-        <div class="container">
+        <nav class="container">
             <a href="#" class="logo">Tecnich Soluciones y Servicios FE</a>
-            <button class="menu-toggle" aria-label="Toggle menu">
-                <i data-lucide="menu"></i>
-            </button>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#about">###</a></li>
-                    <li><a href="#projects">###</a></li>
-                    <li><a href="#contact">###</a></li>
-                </ul>
-                <button class="btn btn-outline">xxx</button>
-            </nav>
-        </div>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#features">Proyectos</a></li>
+                <li><a href="#pricing">Tecnologias</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section id="about">
+        <section id="hero" class="hero full-height">
             <div class="container">
-                <h1>Técnicos Especialistas en Ascensores</h1>
-                <p>Mantenimiento y reparación de sistemas de elevación de última generación. Comprometido con la seguridad y la eficiencia en cada piso.</p>
-                <div class="social-links">
-                    <a href="#" class="btn btn-icon" aria-label="GitHub">
-                        <i data-lucide="github"></i>
-                    </a>
-                    <a href="#" class="btn btn-icon" aria-label="LinkedIn">
-                        <i data-lucide="linkedin"></i>
-                    </a>
-                    <a href="#" class="btn btn-icon" aria-label="Twitter">
-                        <i data-lucide="twitter"></i>
-                    </a>
-                    <a href="#" class="btn btn-icon" aria-label="Email">
-                        <i data-lucide="mail"></i>
-                    </a>
+                <h1 class="fade-in">Técnicos Especialistas en Ascensores</h1>
+                <p class="fade-in">Mantenimiento y reparación de sistemas de elevación de última generación. Comprometido con la seguridad y la eficiencia en cada piso.</p>
+                <div class="button-group fade-in">
+                    <a href="#" class="btn btn-primary">Contactanos</a>
+                    <a href="#" class="btn btn-secondary">Nuestros Servicios</a>
                 </div>
             </div>
         </section>
 
-        <section id="projects">
+        <section id="features" class="features full-height">
             <div class="container">
-                <h2>Proyectos</h2>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/600x400" alt="E-commerce Platform">
-                        <h3>Proyecto 1</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <div class="tags">
-                            <span>xxx</span>
-                            <span>xxx</span>
-                            <span>xxx</span>
-                        </div>
-                        <!-- <a href="#" class="github-link">
-                            <i data-lucide="github"></i> View on GitHub
-                        </a> -->
+                <h2 class="fade-in">Powerful Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card fade-in">
+                        <h3>Easy Bot Creation</h3>
+                        <p>Build complex bots with a simple interface</p>
                     </div>
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/600x400" alt="Task Management App">
-                        <h3>Proyecto 2</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <div class="tags">
-                            <span>xxx</span>
-                            <span>xxx</span>
-                            <span>xxx</span>
-                        </div>
-                        <!-- <a href="#" class="github-link">
-                            <i data-lucide="github"></i> View on GitHub
-                        </a> -->
+                    <div class="feature-card fade-in">
+                        <h3>Lightning Fast</h3>
+                        <p>Deploy your bots in seconds, not hours</p>
                     </div>
-                    <div class="project-card">
-                        <img src="https://via.placeholder.com/600x400" alt="AI Chat Interface">
-                        <h3>Proyecto 3</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                        <div class="tags">
-                            <span>xxx</span>
-                            <span>xxx</span>
-                            <span>xxx</span>    
-                        </div>
-                        <!-- <a href="#" class="github-link">
-                            <i data-lucide="github"></i> View on GitHub
-                        </a> -->
+                    <div class="feature-card fade-in">
+                        <h3>Secure & Reliable</h3>
+                        <p>Bank-grade security for your Discord community</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <h3>AI-Powered</h3>
+                        <p>Leverage cutting-edge AI for smarter bots</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <h3>Advanced Automation</h3>
+                        <p>Automate tasks with powerful workflows</p>
+                    </div>
+                    <div class="feature-card fade-in">
+                        <h3>Global Scaling</h3>
+                        <p>Scale your bots to millions of users effortlessly</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="tech-stack">
+        <section id="pricing" class="pricing full-height">
             <div class="container">
-                <h2>Tecnologías Específicas para Ascensores</h2>
-                <div class="tech-grid">
-                    <div class="tech-card">
-                        <h3>Sistemas de Control</h3>
-                        <div class="tech-tags">
-                            <span>KONE</span>
-                            <span>Otis</span>
-                            <span>Schindler</span>
-                            <span>ThyssenKrupp</span>
-                            <span>Modbus</span>
-                            <span>BACnet</span>
-                        </div>
+                <h2 class="fade-in">Simple, Transparent Pricing</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card fade-in">
+                        <h3>Basic</h3>
+                        <div class="price">$9<span>/mo</span></div>
+                        <ul>
+                            <li>1 Bot</li>
+                            <li>100 Users</li>
+                            <li>Basic Commands</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
                     </div>
-                    <div class="tech-card">
-                        <h3>Diagnóstico y Mantenimiento</h3>
-                        <div class="tech-tags">
-                            <span>Software de Diagnóstico</span>
-                            <span>Mantenimiento Predictivo</span>
-                            <span>Sensores y Actuadores</span>
-                            <span>CMMS</span>
-                            <span>eMaint</span>
-                            <span>Fiix</span>
-                        </div>
+                    <div class="pricing-card fade-in">
+                        <h3>Pro</h3>
+                        <div class="price">$29<span>/mo</span></div>
+                        <ul>
+                            <li>5 Bots</li>
+                            <li>Unlimited Users</li>
+                            <li>Advanced Commands</li>
+                            <li>Priority Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Choose Plan</a>
                     </div>
-                    <div class="tech-card">
-                        <h3>Seguridad y Normativas</h3>
-                        <div class="tech-tags">
-                            <span>EN 81</span>
-                            <span>ASME A17.1</span>
-                            <span>Sistemas de Seguridad</span>
-                            <span>Certificaciones</span>
-                            <span>Inspecciones Regulatorias</span>
-                            <span>Protocolos de Emergencia</span>
-                        </div>
-                    </div>
-                    <div class="tech-card">
-                        <h3>Tecnologías Inteligentes</h3>
-                        <div class="tech-tags">
-                            <span>Monitoreo Remoto</span>
-                            <span>Ahorro Energético</span>
-                            <span>Alertas Automáticas</span>
-                            <span>Integración con Edificios Inteligentes</span>
-                            <span>Optimización de Rutinas</span>
-                            <span>Seguridad Mejorada</span>
-                        </div>
+                    <div class="pricing-card fade-in">
+                        <h3>Enterprise</h3>
+                        <div class="price">Custom</div>
+                        <ul>
+                            <li>Unlimited Bots</li>
+                            <li>Unlimited Users</li>
+                            <li>Custom Features</li>
+                            <li>Dedicated Support</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Contact Sales</a>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>Ponte en contacto</h2>
-                <form id="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Dev. Adrian Castillo.</p>
-            <nav>
-                <a href="#">Terms of Service</a>
-                <a href="#">Privacy</a>
-            </nav>
+            <p>&copy; 2023 Quinx. All rights reserved.</p>
         </div>
     </footer>
 
-    <script>
-        lucide.createIcons();
-
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const menuToggle = document.querySelector('.menu-toggle');
-            const mainNav = document.querySelector('.main-nav');
-
-            menuToggle.addEventListener('click', () => {
-                mainNav.classList.toggle('active');
-            });
-
-            // Cerrar el menú cuando se hace clic en un enlace
-            const navLinks = document.querySelectorAll('.main-nav a');
-            navLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    mainNav.classList.remove('active');
-                });
-            });
-        });
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
