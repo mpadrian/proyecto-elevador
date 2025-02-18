@@ -134,7 +134,7 @@ h1 {
 }
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: #1e91d6;
     color: var(--on-primary);
 }
 
@@ -194,7 +194,7 @@ h1 {
 .feature-card h3, .pricing-card h3 {
     font-size: 1.75rem;
     margin-bottom: 1.5rem;
-    color: var(--primary);
+    color: #0466c8;
 }
 
 .feature-card p {
